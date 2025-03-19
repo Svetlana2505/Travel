@@ -1,0 +1,16 @@
+.header {
+  background-color: gray;
+  padding: 100px 0;
+  color: blue;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 38px;
+  }
+}
